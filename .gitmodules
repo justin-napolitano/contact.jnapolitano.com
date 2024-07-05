@@ -1,72 +1,9 @@
 [submodule "themes/hermit-V2"]
 	path = themes/hermit-V2
 	url = https://github.com/justin-napolitano/hermit-V2.git
-[submodule "content/posts/gcputils"]
-	path = content/posts/gcputils
-	url = https://github.com/justin-napolitano/gcputils.git
-[submodule "content/posts/gh-pages-workflow"]
-	path = content/posts/gh-pages-workflow
-	url = https://github.com/justin-napolitano/gh-pages-workflow.git
-[submodule "content/posts/accord-headliner"]
-	path = content/posts/accord-headliner
-	url = https://github.com/justin-napolitano/accord-headliner.git
 [submodule "content/posts/accord-bumper-weld"]
 	path = content/posts/accord-bumper-weld
 	url = https://github.com/justin-napolitano/accord-bumper-weld
 [submodule "content/posts/make-an-outdoor-living-space"]
 	path = content/posts/make-an-outdoor-living-space
 	url = https://github.com/justin-napolitano/making-an-outdoor-living-room.git
-[submodule "content/posts/hugo-social-publisher"]
-	path = content/posts/hugo-social-publisher
-	url = https://github.com/justin-napolitano/hugo-social-publisher.git
-[submodule "content/posts/python-rss-reader"]
-	path = content/posts/python-rss-reader
-	url = https://github.com/justin-napolitano/python-rss-reader.git
-[submodule "content/posts/prepare-chicken-salad"]
-	path = content/posts/prepare-chicken-salad
-	url = https://github.com/justin-napolitano/prepare-chicken-salad.git
-[submodule "content/posts/curate-an-edc-pouch"]
-	path = content/posts/curate-an-edc-pouch
-	url = https://github.com/justin-napolitano/curate-an-edc-pouch.git
-[submodule "content/posts/overtrain"]
-	path = content/posts/overtrain
-	url = https://github.com/justin-napolitano/overtrain.git
-[submodule "content/posts/mysql-install-buntu"]
-	path = content/posts/mysql-install-buntu
-	url = https://github.com/justin-napolitano/mysql-setup-buntu.git
-[submodule "content/posts/mysql-config"]
-	path = content/posts/mysql-config
-	url = https://github.com/justin-napolitano/mysql-config.git
-[submodule "content/posts/hugo-rss-setup"]
-	path = content/posts/hugo-rss-setup
-	url = https://github.com/justin-napolitano/hugo-rss-setup.git
-[submodule "content/posts/hugo-rss-mysql-update"]
-	path = content/posts/hugo-rss-mysql-update
-	url = https://github.com/justin-napolitano/hugo-rss-mysql-update.git
-[submodule "content/posts/embrace_mundanity"]
-	path = content/posts/embrace_mundanity
-	url = https://github.com/justin-napolitano/embrace_mundanity.git
-[submodule "content/posts/enter_my_car"]
-	path = content/posts/enter_my_car
-	url = https://github.com/justin-napolitano/enter_my_car.git
-[submodule "content/posts/create_a_github_template_repo"]
-	path = content/posts/create_a_github_template_repo
-	url = https://github.com/justin-napolitano/create_a_github_template_repo.git
-[submodule "content/posts/gh_submodule_sync"]
-	path = content/posts/gh_submodule_sync
-	url = https://github.com/justin-napolitano/gh_submodule_sync.git
-[submodule "content/posts/raising_canes"]
-	path = content/posts/raising_canes
-	url = https://github.com/justin-napolitano/raising-canes.git
-[submodule "content/posts/todo_es_sacre"]
-	path = content/posts/todo_es_sacre
-	url = https://github.com/justin-napolitano/todo_es_sacre.git
-[submodule "content/posts/cigarettes"]
-	path = content/posts/cigarettes
-	url = https://github.com/justin-napolitano/cigarettes.git
-[submodule "content/posts/cigarettes_again"]
-	path = content/posts/cigarettes_again
-	url = https://github.com/justin-napolitano/cigarettes-again.git
-[submodule "content/posts/love-is-hard"]
-	path = content/posts/love-is-hard
-	url = https://github.com/justin-napolitano/love-is-hard.git
