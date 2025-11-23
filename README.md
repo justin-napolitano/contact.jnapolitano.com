@@ -1,27 +1,27 @@
 # contact.jnapolitano.com
 
-A personal website built with Hugo, showcasing blog posts, projects, and more. This repository contains the source code and content for the site hosted at [contact.jnapolitano.com](https://contact.jnapolitano.com).
+A personal website built with Hugo, designed to showcase blog posts, projects, and various content. This repository contains the source code, content, and automation scripts for the site hosted at [contact.jnapolitano.com](https://contact.jnapolitano.com).
 
 ---
 
 ## Features
 
-- Static site generator powered by [Hugo](https://gohugo.io/).
-- Multi-language support (English default, with placeholders for French and Italian).
-- Blog posts organized with archetypes and content folders.
-- Integration of RSS feed scraping and automation scripts.
-- Google Cloud Storage client utilities.
-- MySQL database schema and connector scripts for post and author management.
-- GitHub Actions workflow for automated deployment to GitHub Pages.
+- Static site generation using [Hugo](https://gohugo.io/).
+- Multi-language support with English as the default language and placeholders for French and Italian.
+- Blog post management with archetypes and content directories.
+- RSS feed scraping and update automation using Python scripts.
+- Integration with MySQL for storing post and author metadata.
+- Google Cloud Storage client utilities for managing cloud assets.
+- CI/CD pipeline using GitHub Actions for automated deployment to GitHub Pages.
 
 ## Tech Stack
 
-- **Hugo**: Static site generator.
-- **HTML/CSS**: Site markup and styling.
-- **Python**: RSS feed scraping, data processing, and MySQL interaction.
-- **MySQL**: Database for storing posts and authors.
+- **Hugo**: Static site generator for building the website.
+- **HTML/CSS**: Markup and styling of the site.
+- **Python**: Scripts for RSS feed scraping, data processing, and MySQL database interaction.
+- **MySQL**: Database for posts and author information.
 - **Google Cloud Storage SDK**: For cloud storage operations.
-- **GitHub Actions**: CI/CD pipeline for deployment.
+- **GitHub Actions**: Automating build and deployment workflows.
 
 ## Getting Started
 
@@ -44,10 +44,10 @@ cd contact.jnapolitano.com
 2. Install Python dependencies (if running Python scripts):
 
 ```bash
-pip install -r requirements.txt  # Assuming a requirements file exists or install individually
+pip install -r requirements.txt  # If a requirements.txt exists
 ```
 
-3. Set up environment variables for MySQL connection (create a `.env` file):
+3. Set up environment variables for MySQL connection by creating a `.env` file:
 
 ```env
 DB_USER=yourusername
@@ -62,7 +62,7 @@ DB_NAME=yourdbname
 hugo server
 ```
 
-Visit `http://localhost:1313` to view the site.
+Visit `http://localhost:1313` in your browser to view the site.
 
 ### Running Python Scripts
 
@@ -74,35 +74,29 @@ python public/posts/hugo-rss-mysql-update/rss-scraper.py
 
 ## Project Structure
 
-```
-contact.jnapolitano.com/
-├── archetypes/           # Hugo archetypes for content templates
-├── archived-posts/       # Older blog posts
-├── assets/               # Static assets like images
-├── content/              # Main site content
-├── layouts/              # Hugo templates and layouts
-├── public/               # Generated site output
-├── resources/            # Hugo resource files
-├── static/               # Static files served as-is
-├── themes/               # Hugo themes (using hermit-V2)
-├── garbage/              # Experimental or data-related posts
-├── test/                 # Test scripts or files
-├── config.toml           # Example Hugo config
-├── hugo.toml             # Actual Hugo config
-├── hugo.toml.example     # Config example
-├── submodule.sh          # Script for git submodules
-└── public/posts/          # Various Python scripts and SQL configs for data processing
-```
+- `archetypes/` - Hugo archetypes for post templates.
+- `archived-posts/` - Older blog posts archived here.
+- `assets/` - Site assets like images and styles.
+- `content/` - Main content directory for posts and pages.
+- `layouts/` - Hugo templates and layouts.
+- `public/` - Generated site output (usually gitignored).
+- `resources/` - Hugo resource files.
+- `static/` - Static files served directly.
+- `themes/` - Hugo themes used by the site.
+- `garbage/` - Experimental or discarded content.
+- `test/` - Test scripts or data.
+- `submodule.sh` - Script related to git submodules.
+- `config.toml` and `hugo.toml` - Configuration files for Hugo.
+- Python scripts under `public/posts/` for RSS scraping, MySQL interaction, and GCS client utilities.
+- SQL schema files under `public/posts/mysql-config/` for managing database tables.
+- GitHub Actions workflow file `public/posts/gh-pages-workflow/hugo.yaml` for deployment automation.
 
 ## Future Work / Roadmap
 
-- Improve documentation and README with detailed usage instructions.
-- Add more automated tests and CI checks.
-- Enhance multi-language support and localization.
-- Expand integration with cloud services and database for dynamic content.
-- Refine deployment workflow for smoother updates.
-- Clean up and organize experimental scripts and folders.
-
----
-
-*Note: Some assumptions were made about the environment and usage based on the repository structure and file contents.*
+- Complete multi-language content for French and Italian.
+- Enhance automation scripts to handle more content types and error cases.
+- Improve integration between RSS feed scraping and database updates.
+- Add tests and validation for Python scripts.
+- Expand cloud storage utilities to support more operations.
+- Refine Hugo theme customization and site styling.
+- Document deployment process and environment setup in more detail.
