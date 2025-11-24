@@ -1,12 +1,27 @@
 ---
-slug: "github-contact.jnapolitano.com"
-title: "contact.jnapolitano.com"
-repo: "justin-napolitano/contact.jnapolitano.com"
-githubUrl: "https://github.com/justin-napolitano/contact.jnapolitano.com"
-generatedAt: "2025-11-23T08:45:09.849566Z"
-source: "github-auto"
+slug: github-contact.jnapolitano.com
+title: 'contact.jnapolitano.com: Hugo Site with Python Automation and MySQL Backend'
+repo: justin-napolitano/contact.jnapolitano.com
+githubUrl: https://github.com/justin-napolitano/contact.jnapolitano.com
+generatedAt: '2025-11-23T08:45:09.849566Z'
+source: github-auto
+summary: >-
+  Description of a personal Hugo static site using Python scripts for RSS ingestion, MySQL metadata
+  management, and automated GitHub Actions deployment.
+tags:
+  - hugo
+  - python
+  - mysql
+  - static-site
+  - automation
+  - github-actions
+seoPrimaryKeyword: hugo static site
+seoSecondaryKeywords:
+  - python automation
+  - mysql metadata
+  - github actions deployment
+seoOptimized: true
 ---
-
 
 # Project Overview: contact.jnapolitano.com
 
@@ -55,3 +70,4 @@ Deployment is automated with GitHub Actions. The workflow installs Hugo and Dart
 ## Summary
 
 This project exemplifies a pragmatic approach to managing a personal static website with dynamic content ingestion and backend metadata management. It leverages Hugo for site generation, Python for automation, MySQL for structured data, and cloud services for asset storage. The deployment pipeline ensures continuous delivery. The design choices favor simplicity, maintainability, and automation, supporting ongoing content updates with minimal manual effort.
+
