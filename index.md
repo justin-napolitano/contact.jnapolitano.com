@@ -21,6 +21,13 @@ seoSecondaryKeywords:
   - mysql metadata
   - github actions deployment
 seoOptimized: true
+topicFamily: automation
+topicFamilyConfidence: 0.9
+topicFamilyNotes: >-
+  The post centers on automating content ingestion, metadata management, and deployment using Python
+  scripts, MySQL, and GitHub Actions. While it involves Hugo static site generation, the main
+  distinguishing focus is on automation workflows and deployment pipelines rather than purely static
+  site content.
 ---
 
 # Project Overview: contact.jnapolitano.com
@@ -70,4 +77,5 @@ Deployment is automated with GitHub Actions. The workflow installs Hugo and Dart
 ## Summary
 
 This project exemplifies a pragmatic approach to managing a personal static website with dynamic content ingestion and backend metadata management. It leverages Hugo for site generation, Python for automation, MySQL for structured data, and cloud services for asset storage. The deployment pipeline ensures continuous delivery. The design choices favor simplicity, maintainability, and automation, supporting ongoing content updates with minimal manual effort.
+
 
