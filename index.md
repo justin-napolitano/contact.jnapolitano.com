@@ -1,13 +1,13 @@
 ---
 slug: github-contact.jnapolitano.com
-title: 'contact.jnapolitano.com: Hugo Site with Python Automation and MySQL Backend'
+title: Building a Personal Website with Hugo and Python Automation
 repo: justin-napolitano/contact.jnapolitano.com
 githubUrl: https://github.com/justin-napolitano/contact.jnapolitano.com
 generatedAt: '2025-11-23T08:45:09.849566Z'
 source: github-auto
 summary: >-
-  Description of a personal Hugo static site using Python scripts for RSS ingestion, MySQL metadata
-  management, and automated GitHub Actions deployment.
+  Explore the architecture and implementation of a personal website using Hugo,
+  Python scripts, and automated deployment workflows.
 tags:
   - hugo
   - python
@@ -15,19 +15,27 @@ tags:
   - static-site
   - automation
   - github-actions
-seoPrimaryKeyword: hugo static site
+  - github actions
+  - static site generator
+  - rss feed
+  - cloud storage
+seoPrimaryKeyword: hugo static site automation
 seoSecondaryKeywords:
-  - python automation
-  - mysql metadata
-  - github actions deployment
+  - python content management
+  - automated deployment
+  - database schema design
+  - rss feed scraping
+  - cloud asset management
 seoOptimized: true
 topicFamily: automation
 topicFamilyConfidence: 0.9
 topicFamilyNotes: >-
-  The post centers on automating content ingestion, metadata management, and deployment using Python
-  scripts, MySQL, and GitHub Actions. While it involves Hugo static site generation, the main
-  distinguishing focus is on automation workflows and deployment pipelines rather than purely static
-  site content.
+  The post centers on automating content ingestion, metadata management, and
+  deployment using Python scripts, MySQL, and GitHub Actions. While it involves
+  Hugo static site generation, the main distinguishing focus is on automation
+  workflows and deployment pipelines rather than purely static site content.
+kind: project
+id: github-contact.jnapolitano.com
 ---
 
 # Project Overview: contact.jnapolitano.com
