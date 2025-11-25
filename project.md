@@ -1,14 +1,14 @@
 ---
 slug: github-contact-jnapolitano-com
 id: github-contact-jnapolitano-com
-title: Personal Website Source Code and Automation with Hugo
+title: Personal Website Source Code with Hugo and Python Scripts
 repo: justin-napolitano/contact.jnapolitano.com
 githubUrl: https://github.com/justin-napolitano/contact.jnapolitano.com
 generatedAt: '2025-11-24T21:34:16.485Z'
 source: github-auto
 summary: >-
-  Explore the source code and automation scripts for a personal website built
-  with Hugo, featuring multi-language support and CI/CD deployment.
+  Explore the source code for a personal website built with Hugo, featuring
+  automation scripts and a CI/CD pipeline.
 tags:
   - hugo
   - python
@@ -17,13 +17,13 @@ tags:
   - static site generation
   - cloud storage
   - rss feed
-seoPrimaryKeyword: hugo personal website automation
+seoPrimaryKeyword: hugo personal website source code
 seoSecondaryKeywords:
   - static site generator
-  - python scripts for rss
+  - python automation scripts
   - mysql database integration
-  - github actions deployment
-  - multi-language website
+  - github pages deployment
+  - multi-language support
 seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
