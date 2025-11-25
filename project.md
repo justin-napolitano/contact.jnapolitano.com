@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/contact.jnapolitano.com
 generatedAt: '2025-11-24T21:34:16.485Z'
 source: github-auto
 summary: >-
-  Explore the source code for a personal website built with Hugo, featuring
-  automation scripts and a CI/CD pipeline.
+  Explore the source code for a personal website built with Hugo, featuring automation scripts and a
+  CI/CD pipeline.
 tags:
   - hugo
   - python
@@ -25,8 +25,8 @@ seoSecondaryKeywords:
   - github pages deployment
   - multi-language support
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: static
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -135,4 +135,5 @@ python public/posts/hugo-rss-mysql-update/rss-scraper.py
 - Expand cloud storage utilities to support more operations.
 - Refine Hugo theme customization and site styling.
 - Document deployment process and environment setup in more detail.
+
 
