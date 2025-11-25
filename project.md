@@ -1,20 +1,30 @@
 ---
 slug: github-contact-jnapolitano-com
 id: github-contact-jnapolitano-com
-title: contact.jnapolitano.com
+title: Personal Website Source Code and Automation with Hugo
 repo: justin-napolitano/contact.jnapolitano.com
 githubUrl: https://github.com/justin-napolitano/contact.jnapolitano.com
 generatedAt: '2025-11-24T21:34:16.485Z'
 source: github-auto
 summary: >-
-  A personal website built with Hugo, designed to showcase blog posts, projects,
-  and various content. This repository contains the source code, content, and
-  automation scripts for the site hosted at
-  [contact.jnapolitano.com](https://contact.jnapolitano.com).
-tags: []
-seoPrimaryKeyword: ''
-seoSecondaryKeywords: []
-seoOptimized: false
+  Explore the source code and automation scripts for a personal website built
+  with Hugo, featuring multi-language support and CI/CD deployment.
+tags:
+  - hugo
+  - python
+  - mysql
+  - github actions
+  - static site generation
+  - cloud storage
+  - rss feed
+seoPrimaryKeyword: hugo personal website automation
+seoSecondaryKeywords:
+  - static site generator
+  - python scripts for rss
+  - mysql database integration
+  - github actions deployment
+  - multi-language website
+seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
 kind: project
